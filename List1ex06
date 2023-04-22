@@ -1,0 +1,11 @@
+double a;
+    double b;
+    double media;
+
+    Console.WriteLine("Digite seu primeiro valor");
+    a = double.Parse(Console.ReadLine());
+    Console.WriteLine("Digite seu segundo valor");
+    b = double.Parse(Console.ReadLine());
+    media = Math.Sqrt(a*b);
+    Console.WriteLine("Resultado media");
+    Console.WriteLine(media);
